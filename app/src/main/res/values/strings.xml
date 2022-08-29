@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="no_data">No Data</string>
+    <string name="description">Description</string>
+    <string name="search">Search</string>
+    <string name="sort_by">Sort By</string>
+    <string name="priority_high">Priority High</string>
+    <string name="priority_low">Priority Low</string>
+    <string name="deleteAll">Delete All</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="my_title">My Title</string>
+    <string name="my_todo_description">My ToDo description</string>
+    <string name="text_view_date">TextViewDate</string>
+
+    <string-array name="priorities">
+        <item>High Priority</item>
+        <item>Medium Priority</item>
+        <item>Low Priority</item>
+    </string-array>
+    <string name="title">Title</string>
+    <string name="change_language">Change Language (fa/en)</string>
+    <string name="fragment_list_title">ToDo List</string>
+    <string name="fragment_add_title">Add</string>
+    <string name="fragment_update_title">Update</string>
+    <string name="welcome" translatable="false">Welcome</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="successfully_removed_all">Successfully Removed All!!</string>
+    <string name="delete_everything">Delete Everything :</string>
+    <string name="are_you_sure_you_want_to_delete_everything">Are you sure you want to delete everything?</string>
+    <string name="press_back_again_to_leave_the_app">Press Back Again To Leave The App.</string>
+
+</resources>

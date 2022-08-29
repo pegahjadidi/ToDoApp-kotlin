@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="no_data">بدون اطلاعات</string>
+    <string name="title">عنوان</string>
+    <string name="description">توضیحات</string>
+    <string name="search">جستجو</string>
+    <string name="priority_high">اولویت بالا</string>
+    <string name="priority_low">اولویت کم</string>
+    <string name="sort_by">دسته بندی</string>
+    <string name="deleteAll">حذف همه</string>
+    <string name="add">اضافه کردن</string>
+    <string name="save">ذخیره کردن</string>
+    <string name="delete">حذف</string>
+    <string name="my_title">عنوان</string>
+    <string name="my_todo_description">توضیحات</string>
+    <string name="text_view_date">تاریخ و زمان</string>
+    <string name="change_language">تغییر زبان(فارسی/انگلیسی)</string>
+    <string-array name="priorities">
+        <item>اولویت بالا</item>
+        <item>اولویت متوسط</item>
+        <item>اولویت کم</item>
+    </string-array>
+    <string name="fragment_list_title">لیست انجام کار ها</string>
+    <string name="fragment_add_title">اضافه کردن</string>
+    <string name="fragment_update_title">به روز رسانی</string>
+    <string name="yes">بله</string>
+    <string name="no">خیر</string>
+    <string name="successfully_removed_all">همه موارد با موفقیت حذف شد.</string>
+    <string name="delete_everything">پاک کردن همه موارد :</string>
+    <string name="are_you_sure_you_want_to_delete_everything">آیا از پاک کردن همه موارد اطمینان دارید؟</string>
+    <string name="press_back_again_to_leave_the_app">دکمه بازگشت را دوباره فشار دهید تا از برنامه خارج شوید.</string>
+
+</resources>
