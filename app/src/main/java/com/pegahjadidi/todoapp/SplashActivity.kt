@@ -14,6 +14,6 @@ class SplashActivity : AppCompatActivity() {
         Timer().schedule(timerTask {
             startActivity(Intent(this@SplashActivity, MainActivity::class.java))
             finish()
-        },5500)
+        },5000)
     }
 }

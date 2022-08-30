@@ -92,29 +92,29 @@ class UpdateFragment : Fragment() {
                 mSharedViewModel.parsePriority(updatedPriority),
                 updatedDescription,System.currentTimeMillis(),false)
             mToDoViewModel.updateData(updatedItem)
-            Toast.makeText(requireContext(),"Successfully Updated !!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(),R.string.successfully_updated, Toast.LENGTH_SHORT).show()
             findNavController().navigate(R.id.action_updateFragment_to_listFragment)
         } else {
-            Toast.makeText(requireContext(),"please fill out all fields", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(),R.string.please_fill_out_all_fields, Toast.LENGTH_SHORT).show()
         }
     }
 
     //show alert  dialogue to confirm removal
     private fun confirmItemRemovalItem() {
         val builder = AlertDialog.Builder(requireContext())
-        builder.setPositiveButton("Yes"){_,_ ->
+        builder.setPositiveButton(R.string.yes){_,_ ->
             mToDoViewModel.deleteData(args.currentItem)
             Toast.makeText(requireContext(),
-                "Successfully Removed ${args.currentItem.title} !!"
+                 (R.string.successfully_removed)
                 , Toast.LENGTH_SHORT).show()
 
             findNavController().navigate(R.id.action_updateFragment_to_listFragment)
 
         }
-        builder.setNegativeButton("No") {_,_ ->}
+        builder.setNegativeButton(R.string.no) {_,_ ->}
 
-        builder.setTitle("Delete ${args.currentItem.title}?")
-        builder.setMessage("Are you sure you want to remove \" ${args.currentItem.title} \"?")
+        builder.setTitle(R.string.delete_the_task)
+        builder.setMessage(R.string.are_you_sure_you_want_to_delete_this_task)
         builder.create().show()
     }
 

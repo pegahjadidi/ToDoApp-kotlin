@@ -30,5 +30,11 @@
     <string name="delete_everything">پاک کردن همه موارد :</string>
     <string name="are_you_sure_you_want_to_delete_everything">آیا از پاک کردن همه موارد اطمینان دارید؟</string>
     <string name="press_back_again_to_leave_the_app">دکمه بازگشت را دوباره فشار دهید تا از برنامه خارج شوید.</string>
+    <string name="successfully_added">با موفقیت اضافه شد</string>
+    <string name="please_fill_out_all_fields">لطفا جاهای خالی را پر کنید</string>
+    <string name="successfully_updated">با موفقیت به روز رسانی شد</string>
+    <string name="successfully_removed">با موفقیت حذف شد</string>
+    <string name="are_you_sure_you_want_to_delete_this_task">آیا می خواهید این تسک را پاک کنید؟</string>
+    <string name="delete_the_task">پاک کردن تسک :</string>
 
 </resources>

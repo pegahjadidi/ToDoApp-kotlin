@@ -91,10 +91,9 @@ class ListFragment: Fragment() , SearchView.OnQueryTextListener {
                         androidx.lifecycle.Observer { adapter.setData(it) })
                 }
                 if(menuItem.itemId == R.id.menu_language) {
-                    if(Locale.getDefault().language == "en"){
-                        changeApplicationLanguage("fa")
-                    }else {
-                        changeApplicationLanguage("en")
+                    when(Locale.getDefault().language) {
+                        "en" -> changeApplicationLanguage("fa")
+                        "fa" -> changeApplicationLanguage("en")
                     }
                 }
 

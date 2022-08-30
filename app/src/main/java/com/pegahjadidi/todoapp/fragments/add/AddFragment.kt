@@ -82,11 +82,11 @@ class AddFragment : Fragment() {
                 System.currentTimeMillis(),false
             )
             mToDoViewModel.insertData(newToDoData)
-            Toast.makeText(requireContext(),"successfully added", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(),R.string.successfully_added, Toast.LENGTH_SHORT).show()
             //navigates user back to list fragment
             findNavController().navigate(R.id.action_addFragment_to_listFragment)
         } else {
-            Toast.makeText(requireContext(),"Please fill out all fields", Toast.LENGTH_SHORT).show()
+            Toast.makeText(requireContext(),R.string.please_fill_out_all_fields, Toast.LENGTH_SHORT).show()
         }
 
     }
