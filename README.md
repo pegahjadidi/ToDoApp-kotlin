@@ -19,5 +19,3 @@
 - [ ] reminder
 - [ ] Native dark theme support
 
-## Download:
-- soon in playstore or Bazaar
