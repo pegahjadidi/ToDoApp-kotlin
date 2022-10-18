@@ -13,7 +13,7 @@
 - sort your task by high or low priority
 
 ## Download
-- [Download-Version1.0.1](https://www.dropbox.com/s/0dycpdf8zmo3bln/2022-09-15%20-%20Todoapp.apk?dl=0)
+- [Download-Version1.0.1](https://www.dropbox.com/s/0dycpdf8zmo3bln/2022-09-15%20-%20Todoapp.apk?dl=1)
 
 ## Next update changes:
 - [ ] reminder
